@@ -2,7 +2,7 @@
 <img src="https://github.com/user-attachments/assets/90003095-96fd-4400-a9cc-b8d5f3ba0439" />
 
 
-</p>
+</p>  
 
 <h1>Network File Shares and Permissions</h1>
 In this tutorial, we will walk through the process of setting up and managing network file shares and permissions in a Windows environment.  <br />
@@ -50,9 +50,47 @@ READ ACCESS – This folder provides read-only access, allowing users to view fi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3bf3d64a-dc1e-485b-9604-408a6d4ab48c" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This screenshot shows a domain user accessing "READ ACCESS" and "WRITE ACCESS." The "READ ACCESS" folder is currently empty and generates a permission error message when an action is attempted, indicating that the user only has read-only access and cannot modify or add files to this folder. The "WRITE ACCESS" folder, on the other hand, contains a text document named "New Text Document," demonstrating that the user has write permissions and can add or modify files in this folder. This setup exemplifies the difference between read-only and read-write permissions on network shared folders in an IT environment.
 </p>
 <br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/c768471e-2e86-4d54-a282-df816c91835d" />
+ 
+
+</p>
+<p>
+This screenshot shows the creation of the accountants security group and then adding "accountants" to have read and write permissions in the accountants folder.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/8d13d3c6-d487-4069-b3f3-e5b91306c8ca" />
+
+ 
+
+</p>
+<p>
+This screenshot shows the Domain Users added as members in the Accountants Security Group.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/4b876661-69cc-4e11-a797-29f4c08603ee" />
+
+
+ 
+
+</p>
+<p>
+Finally in this screenshot shows that one of the domain users is able to access the Accounting folder and create a file, as it was given access to read and write as part of the accountants security group.
+</p>
+<br />
+
